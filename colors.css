@@ -1,0 +1,195 @@
+.rtooltip {
+	display: inline-block;
+	color:rgb(222, 73, 62);
+	font-family: Georgia;
+	text-align: left;
+}
+
+.rtooltip .Rdropcap {
+	visibility: hidden;
+	width: 230px;
+	background-color: rgb(212, 175, 171);
+	border-radius: 5px;
+	position: absolute;
+	padding: 10px;
+	text-align: justify;
+}
+
+.Rdropcap::first-letter {
+	font-size: 43px;
+	font-weight: bold;
+	float: left;
+	line-height: 0.70;
+}
+
+.rtooltip:hover .Rdropcap {
+	visibility: visible;
+}
+
+.otooltip {
+	display: inline-block;
+	color:rgb(240, 167, 58);
+	font-family: Times New Roman;
+	text-align: left;
+}
+
+.otooltip .Odropcap {
+	visibility: hidden;
+	width: 230px;
+	background-color: rgb(247, 218, 173);
+	border-radius: 5px;
+	position: absolute;
+	padding: 10px;
+	text-align: justify;
+}
+
+.Odropcap::first-letter {
+	font-size: 43px;
+	font-weight: bold;
+	float: left;
+	line-height: 0.70;
+}
+
+.otooltip:hover .Odropcap {
+	visibility: visible;
+}
+
+.ytooltip {
+	display: inline-block;
+	color:rgb(181, 184, 39);
+	font-family: Arial;
+	text-align: left;
+}
+
+.ytooltip .Ydropcap {
+	visibility: hidden;
+	width: 230px;
+	background-color: rgb(242, 236, 157);
+	border-radius: 5px;
+	position: absolute;
+	padding: 10px;
+	text-align: justify;
+}
+
+.Ydropcap::first-letter {
+	font-size: 43px;
+	font-weight: bold;
+	float: left;
+	line-height: 0.70;
+}
+
+.ytooltip:hover .Ydropcap {
+	visibility: visible;
+}
+
+.gtooltip {
+	display: inline-block;
+	color:rgb(19, 138, 17);
+	font-family: Monaco;
+	text-align: left;
+}
+
+.gtooltip .Gdropcap {
+	visibility: hidden;
+	width: 230px;
+	background-color: rgb(36, 184, 33);
+	border-radius: 5px;
+	position: absolute;
+	padding: 10px;
+	text-align: justify;
+}
+
+.Gdropcap::first-letter {
+	font-size: 43px;
+	font-weight: bold;
+	float: left;
+	line-height: 0.70;
+}
+
+.gtooltip:hover .Gdropcap {
+	visibility: visible;
+}
+
+.btooltip {
+	display: inline-block;
+	color:rgb(23, 90, 153);
+	font-family: Helvetica;
+	text-align: left;
+}
+
+.btooltip .Bdropcap {
+	visibility: hidden;
+	width: 230px;
+	background-color: rgb(166, 197, 227);
+	border-radius: 5px;
+	position: absolute;
+	padding: 10px;
+	text-align: justify;
+}
+
+.Bdropcap::first-letter {
+	font-size: 43px;
+	font-weight: bold;
+	float: left;
+	line-height: 0.70;
+}
+
+.btooltip:hover .Bdropcap {
+	visibility: visible;
+}
+
+.itooltip {
+	display: inline-block;
+	color:rgb(75, 36, 173);
+	font-family: Garamond;
+	text-align: left;
+}
+
+.itooltip .Idropcap {
+	visibility: hidden;
+	width: 230px;
+	background-color: rgb(185, 171, 219);
+	border-radius: 5px;
+	position: absolute;
+	padding: 10px;
+	text-align: justify;
+}
+
+.Idropcap::first-letter {
+	font-size: 43px;
+	font-weight: bold;
+	float: left;
+	line-height: 0.70;
+}
+
+.itooltip:hover .Idropcap {
+	visibility: visible;
+}
+
+.vtooltip {
+	display: inline-block;
+	color:rgb(136, 29, 194);
+	font-family: Verdana;
+	text-align: left;
+}
+
+.vtooltip .Vdropcap {
+	visibility: hidden;
+	width: 230px;
+	background-color: rgb(203, 154, 230);
+	border-radius: 5px;
+	position: absolute;
+	padding: 10px;
+	text-align: justify;
+}
+
+.Vdropcap::first-letter {
+	font-size: 43px;
+	font-weight: bold;
+	float: left;
+	line-height: 0.70;
+}
+
+.vtooltip:hover .Vdropcap {
+	visibility: visible;
+}
